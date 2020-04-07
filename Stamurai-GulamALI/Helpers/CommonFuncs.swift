@@ -1,7 +1,8 @@
 //
 //  CommonFuncs.swift
+//  Stamurai-GulamALI
 //
-//  Created by gulam ali on 07/04/20.
+//  Created by gulam ali on 08/04/20.
 //  Copyright © 2020 gulam ali. All rights reserved.
 //
 
