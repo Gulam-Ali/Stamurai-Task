@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EAF2EB52243D141800B0EFAC /* CommonFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EB51243D141800B0EFAC /* CommonFuncs.swift */; };
+		EAB20B37243D2713004CC855 /* CommonFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB20B36243D2713004CC855 /* CommonFuncs.swift */; };
 		EAF2EB56243D160E00B0EFAC /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EB55243D160E00B0EFAC /* CustomSlider.swift */; };
 		EAFA62E8243CAB3800CAA61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA62E7243CAB3800CAA61F /* AppDelegate.swift */; };
 		EAFA62EA243CAB3800CAA61F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA62E9243CAB3800CAA61F /* SceneDelegate.swift */; };
@@ -30,8 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAB20B36243D2713004CC855 /* CommonFuncs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonFuncs.swift; path = ../../../FreelanceProjects/FoodTrack/FoodTrack/helper/CommonFuncs.swift; sourceTree = "<group>"; };
 		EAF2EB4C243D13A600B0EFAC /* CommonFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFuncs.swift; sourceTree = "<group>"; };
-		EAF2EB51243D141800B0EFAC /* CommonFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CommonFuncs.swift; path = ../../../FreelanceProjects/FoodTrack/FoodTrack/helper/CommonFuncs.swift; sourceTree = "<group>"; };
 		EAF2EB55243D160E00B0EFAC /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		EAFA62E4243CAB3800CAA61F /* Stamurai-GulamALI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stamurai-GulamALI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFA62E7243CAB3800CAA61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		EAF2EB4B243D138300B0EFAC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				EAF2EB51243D141800B0EFAC /* CommonFuncs.swift */,
+				EAB20B36243D2713004CC855 /* CommonFuncs.swift */,
 				EAFA62FB243CC40500CAA61F /* Colors.swift */,
 				EAF2EB4C243D13A600B0EFAC /* CommonFuncs.swift */,
 				EAFA6301243CC4FB00CAA61F /* Extensions.swift */,
@@ -237,7 +237,7 @@
 				EAFA62FD243CC40500CAA61F /* Colors.swift in Sources */,
 				EAFA62E8243CAB3800CAA61F /* AppDelegate.swift in Sources */,
 				EAFA630F243D003000CAA61F /* RatingHistory.xcdatamodeld in Sources */,
-				EAF2EB52243D141800B0EFAC /* CommonFuncs.swift in Sources */,
+				EAB20B37243D2713004CC855 /* CommonFuncs.swift in Sources */,
 				EAFA6312243D071700CAA61F /* RatingHistory+CoreDataClass.swift in Sources */,
 				EAFA6304243CCC7300CAA61F /* RatingVC.swift in Sources */,
 				EAFA6300243CC41C00CAA61F /* persistenceLayer.swift in Sources */,
