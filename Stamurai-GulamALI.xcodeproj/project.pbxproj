@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAF2EB52243D141800B0EFAC /* CommonFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EB51243D141800B0EFAC /* CommonFuncs.swift */; };
+		EAF2EB56243D160E00B0EFAC /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EB55243D160E00B0EFAC /* CustomSlider.swift */; };
 		EAFA62E8243CAB3800CAA61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA62E7243CAB3800CAA61F /* AppDelegate.swift */; };
 		EAFA62EA243CAB3800CAA61F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA62E9243CAB3800CAA61F /* SceneDelegate.swift */; };
 		EAFA62EC243CAB3800CAA61F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA62EB243CAB3800CAA61F /* ViewController.swift */; };
 		EAFA62EF243CAB3800CAA61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFA62ED243CAB3800CAA61F /* Main.storyboard */; };
 		EAFA62F1243CAB3A00CAA61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFA62F0243CAB3A00CAA61F /* Assets.xcassets */; };
 		EAFA62F4243CAB3A00CAA61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFA62F2243CAB3A00CAA61F /* LaunchScreen.storyboard */; };
+		EAFA62FD243CC40500CAA61F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA62FB243CC40500CAA61F /* Colors.swift */; };
+		EAFA6300243CC41C00CAA61F /* persistenceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA62FF243CC41C00CAA61F /* persistenceLayer.swift */; };
+		EAFA6302243CC4FB00CAA61F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA6301243CC4FB00CAA61F /* Extensions.swift */; };
+		EAFA6304243CCC7300CAA61F /* RatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA6303243CCC7300CAA61F /* RatingVC.swift */; };
+		EAFA6306243CD2EB00CAA61F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA6305243CD2EB00CAA61F /* Constants.swift */; };
+		EAFA630A243CF81300CAA61F /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA6309243CF81300CAA61F /* HistoryVC.swift */; };
+		EAFA630C243CF89B00CAA61F /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA630B243CF89B00CAA61F /* HistoryCell.swift */; };
+		EAFA630F243D003000CAA61F /* RatingHistory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAFA630D243D003000CAA61F /* RatingHistory.xcdatamodeld */; };
+		EAFA6312243D071700CAA61F /* RatingHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA6310243D071700CAA61F /* RatingHistory+CoreDataClass.swift */; };
+		EAFA6313243D071700CAA61F /* RatingHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA6311243D071700CAA61F /* RatingHistory+CoreDataProperties.swift */; };
+		EAFA6316243D0BF700CAA61F /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA6314243D0BF600CAA61F /* Animator.swift */; };
+		EAFA6317243D0BF700CAA61F /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA6315243D0BF600CAA61F /* Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAF2EB4C243D13A600B0EFAC /* CommonFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFuncs.swift; sourceTree = "<group>"; };
+		EAF2EB51243D141800B0EFAC /* CommonFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CommonFuncs.swift; path = ../../../FreelanceProjects/FoodTrack/FoodTrack/helper/CommonFuncs.swift; sourceTree = "<group>"; };
+		EAF2EB55243D160E00B0EFAC /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		EAFA62E4243CAB3800CAA61F /* Stamurai-GulamALI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stamurai-GulamALI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFA62E7243CAB3800CAA61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAFA62E9243CAB3800CAA61F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,18 @@
 		EAFA62F0243CAB3A00CAA61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAFA62F3243CAB3A00CAA61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAFA62F5243CAB3A00CAA61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFA62FB243CC40500CAA61F /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		EAFA62FF243CC41C00CAA61F /* persistenceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = persistenceLayer.swift; sourceTree = "<group>"; };
+		EAFA6301243CC4FB00CAA61F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EAFA6303243CCC7300CAA61F /* RatingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingVC.swift; sourceTree = "<group>"; };
+		EAFA6305243CD2EB00CAA61F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EAFA6309243CF81300CAA61F /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		EAFA630B243CF89B00CAA61F /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		EAFA630E243D003000CAA61F /* RatingHistory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RatingHistory.xcdatamodel; sourceTree = "<group>"; };
+		EAFA6310243D071700CAA61F /* RatingHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RatingHistory+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		EAFA6311243D071700CAA61F /* RatingHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RatingHistory+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		EAFA6314243D0BF600CAA61F /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		EAFA6315243D0BF600CAA61F /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +66,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EAF2EB4B243D138300B0EFAC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAF2EB51243D141800B0EFAC /* CommonFuncs.swift */,
+				EAFA62FB243CC40500CAA61F /* Colors.swift */,
+				EAF2EB4C243D13A600B0EFAC /* CommonFuncs.swift */,
+				EAFA6301243CC4FB00CAA61F /* Extensions.swift */,
+				EAFA6315243D0BF600CAA61F /* Animations.swift */,
+				EAFA6305243CD2EB00CAA61F /* Constants.swift */,
+				EAFA6314243D0BF600CAA61F /* Animator.swift */,
+				EAFA62FF243CC41C00CAA61F /* persistenceLayer.swift */,
+				EAF2EB55243D160E00B0EFAC /* CustomSlider.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EAF2EB4D243D13C000B0EFAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAF2EB4E243D13CD00B0EFAC /* Home */,
+				EAF2EB4F243D13DD00B0EFAC /* Rating */,
+				EAF2EB50243D140100B0EFAC /* History */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EAF2EB4E243D13CD00B0EFAC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA62EB243CAB3800CAA61F /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EAF2EB4F243D13DD00B0EFAC /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA6303243CCC7300CAA61F /* RatingVC.swift */,
+			);
+			path = Rating;
+			sourceTree = "<group>";
+		};
+		EAF2EB50243D140100B0EFAC /* History */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA6309243CF81300CAA61F /* HistoryVC.swift */,
+				EAFA630B243CF89B00CAA61F /* HistoryCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		EAF2EB53243D145500B0EFAC /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EAFA62E7243CAB3800CAA61F /* AppDelegate.swift */,
+				EAFA62E9243CAB3800CAA61F /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		EAFA62DB243CAB3800CAA61F = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +145,16 @@
 		EAFA62E6243CAB3800CAA61F /* Stamurai-GulamALI */ = {
 			isa = PBXGroup;
 			children = (
-				EAFA62E7243CAB3800CAA61F /* AppDelegate.swift */,
-				EAFA62E9243CAB3800CAA61F /* SceneDelegate.swift */,
-				EAFA62EB243CAB3800CAA61F /* ViewController.swift */,
+				EAFA6310243D071700CAA61F /* RatingHistory+CoreDataClass.swift */,
+				EAFA6311243D071700CAA61F /* RatingHistory+CoreDataProperties.swift */,
 				EAFA62ED243CAB3800CAA61F /* Main.storyboard */,
-				EAFA62F0243CAB3A00CAA61F /* Assets.xcassets */,
 				EAFA62F2243CAB3A00CAA61F /* LaunchScreen.storyboard */,
+				EAF2EB53243D145500B0EFAC /* Delegates */,
+				EAF2EB4D243D13C000B0EFAC /* Controllers */,
+				EAF2EB4B243D138300B0EFAC /* Helpers */,
+				EAFA62F0243CAB3A00CAA61F /* Assets.xcassets */,
 				EAFA62F5243CAB3A00CAA61F /* Info.plist */,
+				EAFA630D243D003000CAA61F /* RatingHistory.xcdatamodeld */,
 			);
 			path = "Stamurai-GulamALI";
 			sourceTree = "<group>";
@@ -138,9 +230,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFA6316243D0BF700CAA61F /* Animator.swift in Sources */,
 				EAFA62EC243CAB3800CAA61F /* ViewController.swift in Sources */,
+				EAFA630A243CF81300CAA61F /* HistoryVC.swift in Sources */,
+				EAFA6302243CC4FB00CAA61F /* Extensions.swift in Sources */,
+				EAFA62FD243CC40500CAA61F /* Colors.swift in Sources */,
 				EAFA62E8243CAB3800CAA61F /* AppDelegate.swift in Sources */,
+				EAFA630F243D003000CAA61F /* RatingHistory.xcdatamodeld in Sources */,
+				EAF2EB52243D141800B0EFAC /* CommonFuncs.swift in Sources */,
+				EAFA6312243D071700CAA61F /* RatingHistory+CoreDataClass.swift in Sources */,
+				EAFA6304243CCC7300CAA61F /* RatingVC.swift in Sources */,
+				EAFA6300243CC41C00CAA61F /* persistenceLayer.swift in Sources */,
+				EAF2EB56243D160E00B0EFAC /* CustomSlider.swift in Sources */,
+				EAFA6313243D071700CAA61F /* RatingHistory+CoreDataProperties.swift in Sources */,
 				EAFA62EA243CAB3800CAA61F /* SceneDelegate.swift in Sources */,
+				EAFA6306243CD2EB00CAA61F /* Constants.swift in Sources */,
+				EAFA6317243D0BF700CAA61F /* Animations.swift in Sources */,
+				EAFA630C243CF89B00CAA61F /* HistoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +397,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hometution.gulamali.Stamurai-GulamALI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamuraigulaAli.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +415,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hometution.gulamali.Stamurai-GulamALI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamuraigulaAli.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,6 +444,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAFA630D243D003000CAA61F /* RatingHistory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAFA630E243D003000CAA61F /* RatingHistory.xcdatamodel */,
+			);
+			currentVersion = EAFA630E243D003000CAA61F /* RatingHistory.xcdatamodel */;
+			path = RatingHistory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EAFA62DC243CAB3800CAA61F /* Project object */;
 }
