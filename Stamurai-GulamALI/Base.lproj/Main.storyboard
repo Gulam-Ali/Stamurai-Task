@@ -165,10 +165,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qbi-ko-3eY">
-                                <rect key="frame" x="57" y="124" width="300" height="400"/>
+                                <rect key="frame" x="57" y="124" width="300" height="403"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92C-Vl-Lsd">
-                                        <rect key="frame" x="5" y="5" width="290" height="390"/>
+                                        <rect key="frame" x="5" y="5" width="290" height="393"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                         <nil key="textColor"/>
@@ -181,12 +181,11 @@
                                     <constraint firstAttribute="width" constant="300" id="1qU-vP-Da4"/>
                                     <constraint firstAttribute="bottom" secondItem="92C-Vl-Lsd" secondAttribute="bottom" constant="5" id="Nqf-zT-tFM"/>
                                     <constraint firstItem="92C-Vl-Lsd" firstAttribute="leading" secondItem="Qbi-ko-3eY" secondAttribute="leading" constant="5" id="ZRp-gK-pTx"/>
-                                    <constraint firstAttribute="height" constant="400" id="guk-Kd-yyd"/>
                                     <constraint firstItem="92C-Vl-Lsd" firstAttribute="top" secondItem="Qbi-ko-3eY" secondAttribute="top" constant="5" id="vzn-Lq-Xy9"/>
                                 </constraints>
                             </view>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="9" minimumValueImage="rate0" maximumValueImage="rate9" translatesAutoresizingMaskIntoConstraints="NO" id="f5b-VI-M3d">
-                                <rect key="frame" x="28" y="624" width="358" height="32"/>
+                                <rect key="frame" x="28" y="577" width="358" height="32"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="thumbImage" value="stamurai-logo"/>
                                 </userDefinedRuntimeAttributes>
@@ -195,7 +194,7 @@
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QiV-Af-GDD">
-                                <rect key="frame" x="20" y="725" width="374" height="54"/>
+                                <rect key="frame" x="20" y="678" width="374" height="54"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <state key="normal" title="Submit">
@@ -208,12 +207,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Qbi-ko-3eY" firstAttribute="height" secondItem="zRH-qG-UZf" secondAttribute="height" multiplier="0.45" id="0eA-EA-gRw"/>
                             <constraint firstItem="Qbi-ko-3eY" firstAttribute="centerX" secondItem="4Z9-wq-CL9" secondAttribute="centerX" id="1et-XL-Xbw"/>
                             <constraint firstItem="QiV-Af-GDD" firstAttribute="leading" secondItem="4Z9-wq-CL9" secondAttribute="leading" constant="20" id="4gU-Zz-vj3"/>
                             <constraint firstItem="QiV-Af-GDD" firstAttribute="height" secondItem="zRH-qG-UZf" secondAttribute="height" multiplier="0.06" id="EsS-kK-2Cj"/>
                             <constraint firstItem="Qbi-ko-3eY" firstAttribute="top" secondItem="4Z9-wq-CL9" secondAttribute="top" constant="80" id="MIx-GQ-bbJ"/>
                             <constraint firstItem="4Z9-wq-CL9" firstAttribute="trailing" secondItem="QiV-Af-GDD" secondAttribute="trailing" constant="20" id="Xbm-LP-8re"/>
-                            <constraint firstItem="f5b-VI-M3d" firstAttribute="top" secondItem="Qbi-ko-3eY" secondAttribute="bottom" constant="100" id="jJ5-We-R1z"/>
+                            <constraint firstItem="f5b-VI-M3d" firstAttribute="top" secondItem="Qbi-ko-3eY" secondAttribute="bottom" constant="50" id="jJ5-We-R1z"/>
                             <constraint firstItem="f5b-VI-M3d" firstAttribute="leading" secondItem="4Z9-wq-CL9" secondAttribute="leading" constant="30" id="rEf-2i-qAx"/>
                             <constraint firstItem="4Z9-wq-CL9" firstAttribute="trailing" secondItem="f5b-VI-M3d" secondAttribute="trailing" constant="30" id="s1e-Xk-ATt"/>
                             <constraint firstItem="QiV-Af-GDD" firstAttribute="top" secondItem="f5b-VI-M3d" secondAttribute="bottom" constant="70" id="vwC-bK-bha"/>
